@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;   
+}
+
+.container {
+    background: linear-gradient(#e66465, #9198e5);
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    border: 3px solid green;    
+    text-align: center;
+}
+
+.verticalCentered {   
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
