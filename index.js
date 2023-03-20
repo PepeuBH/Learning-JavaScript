@@ -32,7 +32,6 @@ var nOme = 'DIFFERENT FROM THIS' //THESES TWO VAR ARE DIFFERENT
 
 
 
-
 //MATH
 var firstNumber = 10 
 var secondNumber = 5
