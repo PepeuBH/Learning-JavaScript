@@ -1,23 +1,21 @@
-//GetElementByClassName()
-const listItem = document.getElementsByClassName('list-items')
-console.log(listItem)
+//DOM  Manipulation
 
 
-//GetElementById()
-const title = document.getElementById('main-heading')
+
+//Styling elements with DOM
+
+
+const title = document.querySelector('#main-heading');
+title.style.color = 'green';
 console.log(title)
 
 
-//getElementsByTagName()
-const tagName = document.getElementsByTagName('li')
-console.log(tagName)
+//get list-items 
+const listItems = document.querySelectorAll('.list-items')
 
+//the list-items must be in a for loop to apply the effects 
+for(let i = 0; i < listItems.length; i++){
+    listItems[i].style.fontSize = '2rem';
+}
+console.log(listItems)
 
-//querySelector()
-const container = document.querySelector('div') //select the first element with that name
-console.log(container)
-
-
-//querySelectorAll()
-const containerAll = document.querySelectorAll('div') //select all the elements with that name
-console.log(containerAll)
