@@ -12,7 +12,7 @@ title.style.color = 'white';
 const listItems = document.querySelectorAll('.list-items')
 
 //the list-items must be in a for loop to apply the effects 
-for(let i = 0; i < listItems.length; i++){
+for(i = 0; i < listItems.length; i++){
     listItems[i].style.fontSize = '120%'; //font size is set to 110% in CSS
 }
 
