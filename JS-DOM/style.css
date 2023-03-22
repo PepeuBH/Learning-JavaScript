@@ -1,3 +1,5 @@
+
+/* first css config */
 * {
     padding: 0;
     margin: 0;
@@ -5,25 +7,39 @@
     font-size:110% ;
 }
 
-body {
-    background-color:rgba(61, 61, 61, 0.801);
+
+/* title spacing - top & bottom */
+#main-heading{ 
+    padding-top: 2%;
+    padding-bottom: 2%; 
+}
+
+body{
+    background:linear-gradient(rgb(14, 14, 64) 60%,rgb(0, 0, 0));
+    background-attachment: fixed; 
 }
 
 
-
+/* general css for ul */
+/* remove bullets from ul */
+/* padding-top to keep vertically centered */
 ul {
     text-decoration: none;
-    list-style-type: none;
     width: 80%;
     display: inline-block;
-    padding-top: 1%;
-
+    padding-top: 4%;
 }
 
 
+/* specific css for movies ul */
+#movies-list{
+    list-style-type: "\01F39E \FE0F";
+}
 
+
+/* position + top + left = keep the container centered */
 .container {
-    background-color: rgb(0, 50, 121);
+    background-color: transparent;
     border-radius: 10px;
     text-align: center;
     border: solid 1px white;
@@ -33,12 +49,12 @@ ul {
     left: 25%;
     padding-bottom: 2%;
     padding-top: 0.5%;
+
 }
 
 li {
+    margin-bottom: 10px;
     background-color: aliceblue;
     border: solid 1px;
     border-radius: 10rem;
-    justify-content: f;
-
 }
