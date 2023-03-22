@@ -10,6 +10,7 @@
 
 /* title spacing - top & bottom */
 #main-heading{ 
+    font-size: 3rem;
     padding-top: 2%;
     padding-bottom: 2%; 
 }
@@ -17,6 +18,8 @@
 body{
     background:linear-gradient(rgb(14, 14, 64) 60%,rgb(0, 0, 0));
     background-attachment: fixed; 
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -44,7 +47,7 @@ ul {
     text-align: center;
     border: solid 1px white;
     width: 50%;
-    position: fixed;
+    position: relative;
     top: 25%;
     left: 25%;
     padding-bottom: 2%;
@@ -57,4 +60,9 @@ li {
     background-color: aliceblue;
     border: solid 1px;
     border-radius: 10rem;
+}
+
+
+.list-items{
+    color: blue;
 }
